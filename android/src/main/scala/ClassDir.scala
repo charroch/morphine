@@ -1,8 +1,9 @@
 import java.io.File
+import javassist.CtClass
 
 class ClassDir(root: File) {
 
-  lazy val classFilter = """.*\.class$""".r
+  lazy val classFilter = """.*\.class$"""
 
   def tree[T]()(implicit converter: File => T): Stream[T] = {
     def innerTree(root: File, skipHidden: Boolean = false): Stream[File] = {

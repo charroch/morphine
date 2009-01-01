@@ -11,5 +11,6 @@ libraryDependencies ++= Seq(
   "com.google.android" % "android" % "4.1.1.4",
   "com.typesafe" % "config" % "1.0.0",
   "com.typesafe" %% "scalalogging-slf4j" % "1.0.1",
+  "com.google.android" % "support-v4" % "r7",
   "org.scalatest" %% "scalatest" % "1.9.1" % "test"
 )
