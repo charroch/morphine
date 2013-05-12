@@ -7,6 +7,23 @@
     <file path="/MethodAction.java" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1367967705042" ignored="false" />
     <file path="/Trace.java" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1367967853190" ignored="false" />
     <file path="/fragment.java" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1367968027844" ignored="false" />
+    <file path="/TraceWriter.java" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226051752" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/compile-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/test-internal-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/optional-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/runtime-internal-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/docs-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/plugin-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/compile-internal-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/pom-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/provided-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/sources-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/runtime-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/reports/novoda.morphine-android_2.10/test-resolved.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="$PROJECT_DIR$/target/resolution-cache/novoda.morphine/android_2.10/0.1-SNAPSHOT/resolved.xml.xml" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368226941515" ignored="false" />
+    <file path="/build.sbt" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368357242454" ignored="false" />
+    <file path="/a.dummy" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368227709746" ignored="false" />
+    <file path="/App.scala" changelist="1668cfc9-414a-44d2-89df-7f8dfa334ecd" time="1368394047936" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +84,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MethodAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/MethodAction.java">
+      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+            <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/App.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.4383117">
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,11 +107,17 @@
       <file leaf-file-name="Trace.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/Trace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="4" selection-start="1245" selection-end="1359" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#734#748#0" expanded="true" />
-              </folding>
+            <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/MethodAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,31 +134,16 @@
       <file leaf-file-name="TraceManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="18" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#575#590#0" expanded="true" />
-                <element signature="e#724#739#0" expanded="true" />
-              </folding>
+            <state line="25" column="41" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TraceWriter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TraceWriter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.032863848">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="16" column="39" selection-start="313" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,10 +160,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/MethodAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/Trace.java" />
         <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/Tracer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/novoda/morphine/android/Trace.java" />
+        <option value="$PROJECT_DIR$/com/tesco/tablet/TescoApplication.class" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/App.scala" />
       </list>
     </option>
   </component>
@@ -152,6 +174,31 @@
     <option name="y" value="18" />
     <option name="width" value="1280" />
     <option name="height" value="763" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -164,7 +211,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -179,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -230,6 +276,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -248,29 +298,26 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="options.lastSelected" value="project.scopes" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -366,6 +413,19 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -373,6 +433,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1668cfc9-414a-44d2-89df-7f8dfa334ecd" name="Default" comment="" />
@@ -393,14 +470,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2882629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22520325" sideWeight="0.32533732" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25447154" sideWeight="0.6769953" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25447154" sideWeight="0.6781955" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2197183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22085561" sideWeight="0.64360905" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.75338346" order="4" side_tool="false" content_ui="combo" />
@@ -409,7 +486,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7894737" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781956" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3230047" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32180452" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38215962" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -446,7 +523,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -474,17 +551,21 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/MethodAction.java">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+        <state line="8" column="30" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/MethodAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -492,10 +573,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/Trace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="4" selection-start="1245" selection-end="1359" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#734#748#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,19 +587,79 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="18" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#590#0" expanded="true" />
-            <element signature="e#724#739#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="346" selection-end="346" vertical-scroll-proportion="-0.032863848">
+        <state line="16" column="36" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.0.3-sources.jar!/ch/qos/logback/classic/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="16" selection-start="1320" selection-end="1326" vertical-scroll-proportion="0.26872963" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.0.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="34" selection-start="1717" selection-end="1718" vertical-scroll-proportion="0.32084692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="39" selection-start="313" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/TraceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="41" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/Tracer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/Trace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/novoda/morphine/android/MethodAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tesco/tablet/TescoApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="51" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.4383117">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -543,7 +681,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -578,7 +716,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>morphineandroid</last-edited>
+          <last-edited>android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -602,6 +740,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: ch.qos.logback:logback-classic:1.0.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

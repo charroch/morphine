@@ -1,10 +1,11 @@
 package novoda.morphine.android;
 
+import org.slf4j.LoggerFactory;
+
 import java.io.FileOutputStream;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 /**
  * Manages all traces
@@ -12,6 +13,7 @@ import java.util.logging.Logger;
  * @author shaines
  */
 public class TraceManager implements Serializable, Runnable {
+    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TraceManager.class);
 
     private static final long serialVersionUID = 1L;
 
@@ -89,14 +91,14 @@ public class TraceManager implements Serializable, Runnable {
      * Persists all traces gathered by the TraceManager
      */
     private void saveTraces() {
-//        if (logger.isInfoEnabled()) {
-//            logger.info("Saving traces");
-//        }
+        if (logger.isInfoEnabled()) {
+            logger.info("Saving traces");
+        }
 
         try {
             TraceWriter.write(completedTraces, new FileOutputStream("trace-file.xml"));
         } catch (Exception e) {
-//            logger.error("An error occurred while saving trace file: " + e.getMessage(), e);
+            logger.error("An error occurred while saving trace file: " + e.getMessage(), e);
         }
 
         for (String key : completedTraces.keySet()) {
@@ -111,7 +113,7 @@ public class TraceManager implements Serializable, Runnable {
     }
 
     /**
-     * Starts the trace manager
+     * Start    the trace manager
      */
     public void startTraceManager() {
         if (logger.isInfoEnabled()) {
@@ -132,9 +134,9 @@ public class TraceManager implements Serializable, Runnable {
      */
     @Override
     public void run() {
-//        if (logger.isInfoEnabled()) {
-//            logger.info("TraceManager started");
-//        }
+        if (logger.isInfoEnabled()) {
+            logger.info("TraceManager started");
+        }
 
         // Run while running is true (control to be able to manually stop the TraceManager)
         // and while he have active traces (and we have received at least one so far)

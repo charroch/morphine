@@ -1,12 +1,12 @@
 package novoda.morphine.android;
 
+import org.jdom2.Element;
+import org.jdom2.output.Format;
+import org.jdom2.output.XMLOutputter;
+import org.slf4j.LoggerFactory;
+
 import java.io.OutputStream;
 import java.util.Map;
-
-import org.apache.log4j.Logger;
-import org.jdom.Element;
-import org.jdom.output.Format;
-import org.jdom.output.XMLOutputter;
 
 /**
  * Utility class that writes trace files
@@ -14,7 +14,7 @@ import org.jdom.output.XMLOutputter;
  * @author shaines
  */
 public class TraceWriter {
-    private static final Logger logger = Logger.getLogger(TraceWriter.class);
+    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TraceWriter.class);
 
     /**
      * Writes the specified trace map to the specified output stream

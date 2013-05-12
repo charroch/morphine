@@ -13,3 +13,6 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+
+.idea/
+.idea_modules/
