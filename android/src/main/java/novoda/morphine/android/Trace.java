@@ -1,6 +1,6 @@
 package novoda.morphine.android;
 
-import com.sun.jmx.trace.TraceManager;
+import org.slf4j.LoggerFactory;
 
 import java.io.Serializable;
 import java.util.LinkedList;
@@ -12,6 +12,8 @@ import java.util.List;
  * @author shaines
  */
 public class Trace implements Serializable {
+    private static final org.slf4j.Logger logger = LoggerFactory.getLogger(TraceManager.class);
+
     private static final long serialVersionUID = 1L;
     /**
      * The trace key, which will be assigned by the TraceManager
@@ -43,9 +45,9 @@ public class Trace implements Serializable {
      * @param id     The method id, which is the fully-qualified method name
      */
     public void addAction(MethodAction.Action action, String id) {
-//        if (logger.isTraceEnabled()) {
-//            logger.trace("Add action: [" + action + "] " + id);
-//        }
+        if (logger.isTraceEnabled()) {
+            logger.trace("Add action: [" + action + "] " + id);
+        }
 
         if (actions.size() == 0) {
             // Save the head id of this trace
