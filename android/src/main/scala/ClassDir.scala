@@ -1,16 +1,19 @@
 import java.io.File
 
 class ClassDir(root: File) {
-  def tree(): Stream[File] = {
+
+  lazy val classFilter = """.*\.class$""".r
+
+  def tree[T]()(implicit converter: File => T): Stream[T] = {
     def innerTree(root: File, skipHidden: Boolean = false): Stream[File] = {
       if (!root.exists || (skipHidden && root.isHidden)) Stream.empty
       else root #:: (
-        root.listFiles match {
+        root.listFiles() match {
           case null => Stream.empty
-          case files => files.toStream.flatMap(innerTree(_, skipHidden))
+          case files => files.filter(_.isDirectory).toStream.flatMap(innerTree(_, skipHidden))
         })
     }
-    innerTree(root)
+    innerTree(root).map(converter)
   }
 }
 
