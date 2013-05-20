@@ -4,6 +4,8 @@ organization := "novoda.morphine"
 
 scalaVersion := "2.10.1"
 
+resolvers += "Local Maven Repository" at "file://" + Path.userHome.absolutePath + "/.m2/repository"
+
 libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-classic" % "1.0.3",
   "org.jdom" % "jdom" % "2.0.2",

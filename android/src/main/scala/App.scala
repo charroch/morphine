@@ -35,6 +35,7 @@ object Main extends App {
     try {
       if (cl.subclassOf(activity)) {
         Console.println(f.getName)
+        modify(cl)
       } else {
         //if (f.getName.contains("Activity")) Console.println("==> " + f.getName)
       }
@@ -43,6 +44,19 @@ object Main extends App {
         Console.println(e)
       }
     }
+  }
+
+  def modify(cl: CtClass) {
+
+    val original = cl.getDeclaredMethod("onCreate");
+    original.insertBefore("""android.util.Log.i("test", "Hello world");""")
+    original.insertAfter( """android.util.Log.i("test", "Hello world 2");""")
+    cl.writeFile(output);
+
+
+    //    val method = CtNewMethod.wrapped(
+//      original.getReturnType, "add", argTypes, null, addMethod, null, vec
+//    );
   }
 
   lazy val classPool: ClassPool = {
