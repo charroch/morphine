@@ -1,1 +1,1 @@
-f
+instrument childOf method annotated "hello" with """Log.i("hello world")""";
