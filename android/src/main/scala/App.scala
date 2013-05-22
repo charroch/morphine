@@ -47,16 +47,10 @@ object Main extends App {
   }
 
   def modify(cl: CtClass) {
-
     val original = cl.getDeclaredMethod("onCreate");
     original.insertBefore("""android.util.Log.i("test", "Hello world");""")
     original.insertAfter( """android.util.Log.i("test", "Hello world 2");""")
     cl.writeFile(output);
-
-
-    //    val method = CtNewMethod.wrapped(
-//      original.getReturnType, "add", argTypes, null, addMethod, null, vec
-//    );
   }
 
   lazy val classPool: ClassPool = {
