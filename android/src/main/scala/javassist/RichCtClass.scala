@@ -1,6 +1,7 @@
 package javassist
 
 import java.io.File
+import javassist.expr.ExprEditor
 
 object RichCtClass {
 
@@ -21,9 +22,17 @@ object RichCtClass {
   implicit class RichMethod(method: CtMethod) {
 
     def log() {
-      method.insertBefore (
+      method.instrument(new CodeConverter)
+      method.addLocalVariable("start", CtClass.longType)
+      method.insertBefore(
         """
-          |android.util.Log.i("Aspect", ">> entering" + this );
+          |start = System.currentTimeMillis();
+        """.stripMargin
+      )
+      method.insertAfter(
+        """
+          |long end = System.currentTimeMillis() - start;
+          |android.util.Log.i("morphine", this.getClass().getSimpleName() + ":s:" + start + ":e:" + end);
         """.stripMargin
       )
     }

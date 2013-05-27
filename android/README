@@ -1,2 +1,5 @@
 instrument childOf method annotated "hello" with """Log.i("hello world")""";
 
+
+for each class extending "android.app.Activity" instrument "(.*) onCreate(.*)" with("before", "after")
+

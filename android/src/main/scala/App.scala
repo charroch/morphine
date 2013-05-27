@@ -1,4 +1,5 @@
 import android.app.Activity
+import com.typesafe.config.ConfigFactory
 import com.typesafe.scalalogging.slf4j.Logger
 import java.io.{FileInputStream, File}
 import java.net.URLClassLoader
@@ -10,6 +11,10 @@ import scala.util.matching.Regex
 object Main extends App {
 
   val logger = LoggerFactory.getLogger("App")
+
+  val conf = ConfigFactory.load();
+  import scala.collection.JavaConversions._
+  conf.entrySet().iterator().foreach(println)
 
   import java.io.File
 
@@ -47,9 +52,9 @@ object Main extends App {
   }
 
   def modify(cl: CtClass) {
+    import RichCtClass._
     val original = cl.getDeclaredMethod("onCreate");
-    original.insertBefore("""android.util.Log.i("test", "Hello world");""")
-    original.insertAfter( """android.util.Log.i("test", "Hello world 2");""")
+    original.log();
     cl.writeFile(output);
   }
 
